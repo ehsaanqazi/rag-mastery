@@ -12,6 +12,8 @@ A free, textbook-style curriculum for becoming a RAG engineer: document processi
 
 **16 phases · 57 modules · 469 lessons · 15 projects · 20 interactive visualisers**
 
+**[▶ Open the live site](https://ehsaanqazi.github.io/rag-mastery/)**
+
 </div>
 
 ---
@@ -59,6 +61,10 @@ npm run check     # validate all lesson, assessment, exam and project Markdown
 ```
 
 The site is a single-page app: when hosting it, serve `index.html` for unknown paths.
+
+## Deployment
+
+The site is deployed to GitHub Pages at **https://ehsaanqazi.github.io/rag-mastery/** by [.github/workflows/deploy.yml](.github/workflows/deploy.yml) on every push to `main`. The workflow builds with Vite (`base: '/rag-mastery/'`) and copies `index.html` to `404.html` so deep links resolve. To enable it on a fork, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 
 ## Project structure
 

@@ -2,6 +2,7 @@
   "name": "rag-mastery",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://ehsaanqazi.github.io/rag-mastery/",
   "type": "module",
   "scripts": {
     "dev": "vite",
